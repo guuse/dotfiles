@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 # Custom aliases
+alias dot="cd ~/dotfiles/ && code ."
+alias ghb="gh browse"
 alias tfmt="tofu fmt --recursive"
 alias dc="docker compose"
 alias dcw="docker compose up --watch"
