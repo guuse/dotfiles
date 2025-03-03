@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 
+# Clone a new directory and open it in vscode
+glone() {
+    git clone "$@" && cd "$(basename "$@" .git)" && code .
+}
+
+# Use cookiecutter to use a git repo with SSH key
+cookiessh() {
+    cookiecutter git+ssh://"$@"
+}
+
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";

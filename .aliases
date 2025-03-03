@@ -1,5 +1,16 @@
 #!/usr/bin/env bash
 
+# Custom aliases
+alias tfmt="tofu fmt --recursive"
+alias dc="docker compose"
+alias dcw="docker compose up --watch"
+alias dce="docker compose exec -ti"
+alias remaster="git pull --rebase origin master"
+alias remain="git pull --rebase origin main"
+alias gpo="git push origin"
+alias sdig="dig +short"
+alias ghpr="gh pr create --fill && gh pr view --web"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."

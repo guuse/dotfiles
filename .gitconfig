@@ -184,3 +184,8 @@
 [init]
 
 	defaultBranch = main
+
+[user]
+	name = Guus Ekkelenkamp
+	email = guus.ekkelenkamp@harborn.com
+	signingkey = 26B59AD3F84CD02D
