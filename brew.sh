@@ -78,13 +78,16 @@ brew install ucspi-tcp # `tcpserver` etc.
 brew install xpdf
 brew install xz
 
+# Install dev tools
+brew install composer
+brew install git
+brew install opentofu
+
 # Install other useful binaries.
 brew install ack
 #brew install exiv2
-brew install git
 brew install git-lfs
 brew install gh
-brew install opentofu
 brew install gs
 brew install imagemagick --with-webp
 brew install lua
