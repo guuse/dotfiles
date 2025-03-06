@@ -82,6 +82,7 @@ brew install xz
 brew install composer
 brew install git
 brew install opentofu
+brew install az
 
 # Install other useful binaries.
 brew install ack
