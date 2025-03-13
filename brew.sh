@@ -83,6 +83,7 @@ brew install composer
 brew install git
 brew install opentofu
 brew install az
+brew install uv
 
 # Install other useful binaries.
 brew install ack
