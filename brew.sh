@@ -84,6 +84,7 @@ brew install git
 brew install opentofu
 brew install az
 brew install uv
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 
 # Install other useful binaries.
 brew install ack
