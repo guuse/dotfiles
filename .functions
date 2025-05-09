@@ -5,6 +5,11 @@ glone() {
     git clone "$@" && cd "$(basename "$@" .git)" && code .
 }
 
+# Push to the current branch on origin
+gpo() {
+  git push origin "$(git rev-parse --abbrev-ref HEAD)"
+}
+
 # Use cookiecutter to use a git repo with SSH key
 cookiessh() {
     cookiecutter git+ssh://"$@"
