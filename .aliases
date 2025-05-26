@@ -11,6 +11,7 @@ alias remaster="git pull --rebase origin master"
 alias remain="git pull --rebase origin main"
 alias sdig="dig +short"
 alias ghpr="gh pr create --fill && gh pr view --web"
+alias hosts="sudo nano /etc/hosts"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
